@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="KaMark14, @kamarques_14">
+    <meta name="description" content="Calculador de Despesas simples para ajudar no seu dia a dia.">
+    <meta name="keywords" content="calcular Despesas, calcular, contas, calcular contas, calculo">
+    <link rel="icon" type="Img/ico" href="Img/calculator-icon-png-21.jpg">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>Calculador de Despesas</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>Calculador de Despesas:</h2>
+            <label>Conta de água:</label>
+            <input type="number" id="cda" placeholder="Digite o valor">
+
+            <label>Conta de luz:</label>
+            <input type="number" id="cdl" placeholder="Digite o valor">
+
+            <label>Aluguel:</label>
+            <input type="number" id="aluguel" placeholder="Digite o valor">
+
+            <label>Compra:</label>
+            <input type="number" id="compra" placeholder="Digite o valor">
+
+            <button onclick="calcularDespesa()">Calcular</button>
+
+            <h3 id="resultado"></h3>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

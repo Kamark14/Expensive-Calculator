@@ -1,0 +1,46 @@
+@media only screen and (min-width:410px){
+    .container{
+        width: 80%;
+    }
+    .container{
+        margin-left: 20px;
+    }
+    input{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:330px){
+    .container{
+        width: 75%;
+    }
+    .container{
+        margin-left: 20px;
+    }
+    input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .container {
+        width: 70%
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    input{
+        width: 70%;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
+        width: 70%;
+    }
+    main{
+        margin-left: 10px;
+    }
+    }
